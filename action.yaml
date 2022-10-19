@@ -1,5 +1,5 @@
 name: "Semantic Pull Requests"
-description: "Test pull requests confirm to standard"
+description: "Test pull requests conform to standard"
 inputs:
   github_token:
     description: "The secret github token"
