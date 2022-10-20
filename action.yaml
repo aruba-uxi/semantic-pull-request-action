@@ -8,9 +8,8 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Validate PR title
+    - uses: amannn/action-semantic-pull-request@HEAD
       if: github.event_name != 'merge_group'
-      uses: amannn/action-semantic-pull-request@HEAD
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       with:
