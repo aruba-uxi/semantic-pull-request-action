@@ -28,6 +28,8 @@ runs:
         scopes: |
           staging
           production
+          client
+          models
         ## Configure that a scope must always be provided.
         requireScope: false
         ## Configure which scopes (newline delimited) are disallowed in PR
