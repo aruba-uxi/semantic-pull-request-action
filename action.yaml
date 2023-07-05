@@ -22,6 +22,7 @@ runs:
           fix
           refactor
           revert
+          security
           style
           test
         ## Configure which scopes are allowed (newline delimited).
