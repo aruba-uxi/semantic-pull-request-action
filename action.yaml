@@ -22,12 +22,16 @@ runs:
           fix
           refactor
           revert
+          security
           style
           test
         ## Configure which scopes are allowed (newline delimited).
         scopes: |
           staging
           production
+          client
+          models
+          streams
         ## Configure that a scope must always be provided.
         requireScope: false
         ## Configure which scopes (newline delimited) are disallowed in PR
