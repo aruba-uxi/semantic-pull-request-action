@@ -33,7 +33,6 @@ runs:
           models
           streams
           requirements
-          deps
         ## Configure that a scope must always be provided.
         requireScope: false
         ## Configure which scopes (newline delimited) are disallowed in PR
